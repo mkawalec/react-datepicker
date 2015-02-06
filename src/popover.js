@@ -1,7 +1,7 @@
 'use strict';
 
 var React = require('react');
-var Tether = require('tether');
+var Tether = require('tether/tether');
 
 var Popover = React.createClass({
   displayName: 'Popover',
