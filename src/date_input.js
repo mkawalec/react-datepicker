@@ -25,7 +25,7 @@ var DateInput = React.createClass({displayName: "DateInput",
   },
 
   componentWillReceiveProps: function(newProps) {
-    var value = this.props.date ? this.props.date.format(this.props.dateFormat) :
+    var value = newProps.date ? newProps.date.format(newProps.dateFormat) :
                                   '';
 
     this.toggleFocus(newProps.focus);
